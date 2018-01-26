@@ -23,3 +23,7 @@ Here is a few of them:
 
 * Custom direct message and message in **logs** channel when an user joined the server.
 * Commands that can send server informations like: users count, server name, users online count, etc..
+
+### How do I add iBot on my server ?
+
+You can simply add this bot by following this url: https://discordapp.com/oauth2/authorize?client_id=406229725346791446&scope=bot&permissions=2146958591
