@@ -1,5 +1,6 @@
 # iBot
 ## Who's iBot? iBot is the best Discord Bot! Made with NodeJS
+Note: *The bot is currently under development*.
 
 <img src="https://st2.depositphotos.com/4584623/7213/v/950/depositphotos_72139677-stock-illustration-funny-monster-face.jpg" alt="logo iBot" style="width:50;height:50">
 
