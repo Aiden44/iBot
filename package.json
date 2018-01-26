@@ -1,0 +1,14 @@
+{
+  "name": "ibot",
+  "version": "1.0.0",
+  "description": "The best discord bot !",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elian Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
