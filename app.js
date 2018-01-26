@@ -5,10 +5,12 @@ const token = "NDA2MjI5NzI1MzQ2NzkxNDQ2.DUwKiQ.fWj3kTPIV6BWvDbof9yo4o75Owk";
 /*
     Constants
 */
-const Fun = require("./commands/Fun");
 const Avatar = require("./commands/Avatar");
 const Doc = require("./commands/Doc");
 const MemberAdd = require("./commands/MemberAdd");
+const Help = require("./commands/Help");
+const BotInfo = require("./commands/Botinfo");
+const Roll = require("./commands/Roll");
 
 client.on('ready', () => {
     console.log("logged as: " + client.user.username);
@@ -23,9 +25,11 @@ client.on('guildMemberAdd', (user) => {
 
 
 client.on("message", (message) => {
-    Fun.execute(message);
     Avatar.execute(message);
     Doc.execute(message);
+    Help.execute(message);
+    BotInfo.execute(message, client);
+    Roll.execute(message);
 })
 
 client.login(token);
