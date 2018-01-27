@@ -18,6 +18,7 @@ module.exports = class BotInfo {
         docInfoEmbed.setThumbnail("https://3.bp.blogspot.com/-3g1VKe8UW2Q/WMa_tYDquKI/AAAAAAAAZQo/3spVwUE4qyUJNeoIBMh8BwkoWpqfx6EbQCLcB/s1600/Gifs%2Banimados%2BMonstro%2B3.gif");
         docInfoEmbed.setTimestamp();
         docInfoEmbed.setColor("#00D1FD");
+        message.react('✅');
         message.channel.sendEmbed(docInfoEmbed);
     }
 

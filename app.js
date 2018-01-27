@@ -36,7 +36,6 @@ client.on("message", (message) => {
     BotInfo.execute(message, client);
     Roll.execute(message);
     Warn.execute(message, client);
-
 })
 
 client.login(token);

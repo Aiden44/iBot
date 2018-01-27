@@ -18,6 +18,7 @@ module.exports = class Help {
         docInfoEmbed.addField("iWarn @user <reason>", "Warn an user. **Only accessible for user that have iAdmin rôle.**");
         docInfoEmbed.addField("iRoll <num1> <num2>", "Generate a number beetween **num1** and **num2**");
         docInfoEmbed.setColor("#00D1FD");
+        message.react('✅');
         message.channel.sendEmbed(docInfoEmbed);
     }
 
