@@ -45,7 +45,7 @@ module.exports = class Doc {
                 message.reply(" there is the Javascript documentation ! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference");
             break;
             case "java":
-                message.reply(" there is the Java documentation ! https://docs.oracle.com/javase/8/docs/api/");
+                message.reply(" there is the Java documentation ! https://docs.oracle.com/javase/7/docs/api/");
             break;
             case "c":
                 message.reply(" there is the C documentation ! http://devdocs.io/c/");

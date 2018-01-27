@@ -11,7 +11,7 @@ module.exports = class Help {
     static sendHelp(message) {
         const docInfoEmbed = new Discord.RichEmbed();
         docInfoEmbed.setAuthor(message.member.displayName, message.member.user.avatarURL);
-        docInfoEmbed.setDescription("There principal commands that you can use with the bot!");
+        docInfoEmbed.setDescription("There principal commands that you can use with the bot!\nNote: **the bot is currently under develpment !**");
         docInfoEmbed.addField("iUsers", "See number of users in the server");
         docInfoEmbed.addField("iBotInfo", "See bot info");
         docInfoEmbed.addField("iDocInfo", "See the doc info commands");
