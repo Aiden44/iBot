@@ -10,6 +10,9 @@ Here is a few of them:
 | Commands | Utilities |
 | ------------- | ------------- |
 | iHelp | Send an embed with all the commands that you can use |
+| iBotInfo | Show bot info |
+| iGithub | Show link for the code of the bot |
+| iInviteBot | Show the link for invite the bot on a server |
 | iDoc <language> | Send the documentation of the language that you have send |
 | iDocInfo | Send an embed that lists all the language that you can use |
 | iBan @member | Ban the users that you have mention. Note - **You have to have the role: iAdmin to use this command** |
