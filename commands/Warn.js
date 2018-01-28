@@ -17,7 +17,7 @@ module.exports = class BotInfo {
         const user = message.mentions.users.first();
         if(message.mentions.users.size < 1) return message.reply(" please mention an user!");
         const logPanel = new Discord.RichEmbed();
-        logPanel.setColor("#00D1FD");
+        logPanel.setColor("#FF5800");
         logPanel.setTitle("Warn command");
         logPanel.setThumbnail(message.mentions.users.first().displayAvatarURL)
         logPanel.setTimestamp();
