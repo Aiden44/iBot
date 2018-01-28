@@ -14,7 +14,8 @@ module.exports = class Help {
         docInfoEmbed.setDescription("There principal commands that you can use with the bot!\nNote: **the bot is currently under develpment !**");
         docInfoEmbed.addField("iUsers", "See number of users in the server");
         docInfoEmbed.addField("iBotInfo", "See bot info");
-        docInfoEmbed.addField("iGithub", "Send the github code of the bot")
+        docInfoEmbed.addField("iGithub", "Send the github code of the bot");
+        docInfoEmbed.addField("iAvatar", "Send your display avatar in **HD**");
         docInfoEmbed.addField("iDocInfo", "See the doc info commands");
         docInfoEmbed.addField("iWarn @user <reason>", "Warn an user. **Only accessible for user that have iAdmin rôle.**");
         docInfoEmbed.addField("iRoll <num1> <num2>", "Generate a number beetween **num1** and **num2**");
