@@ -12,7 +12,7 @@ module.exports = class Fun {
             message.reply(" there is your avatar !: " + message.author.displayAvatarURL);
             message.react("✅");
         } else {
-            message.reply(" there the avatar of " + user.toString()  +  ": " + message.mentions.users.first().displayAvatarURL;
+            message.reply(" there the avatar of " + user.toString()  +  ": " + message.mentions.users.first().displayAvatarURL);
             message.react("✅");
         }
     }
