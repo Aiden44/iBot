@@ -23,6 +23,7 @@ module.exports = class Help {
         generatedEmbed.setTitle("You number has been generated !");
         generatedEmbed.addField("Generated number", numberGenerated);
         generatedEmbed.setTimestamp();
+        generatedEmbed.setColor("#FF5800");
         message.channel.sendEmbed(generatedEmbed);
     }
 
