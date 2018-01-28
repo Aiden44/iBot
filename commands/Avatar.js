@@ -8,7 +8,7 @@ module.exports = class Fun {
 
     static reply(message) {
         const user = message.mentions.users.first()
-        if(user.size < 1) {
+        if(message.mentions.users.size < 1) {
             message.reply(" there is your avatar !: " + message.author.displayAvatarURL);
             message.react("✅");
         } else {
