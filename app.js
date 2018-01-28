@@ -40,7 +40,7 @@ client.on("message", (message) => {
     }
 
     if(message.content.startsWith("iAvatar")) {
-        message.reply(+ " " + "there is your avatar !: " + message.author.displayAvatarURL);
+        message.reply(" there is your avatar !: " + message.author.displayAvatarURL);
         message.react("✅");
     }
 
