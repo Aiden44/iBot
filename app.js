@@ -1,7 +1,5 @@
 const System = require("./utils/System");
 const client = System.init();
-const token = "NDA2MjI5NzI1MzQ2NzkxNDQ2.DUwKiQ.fWj3kTPIV6BWvDbof9yo4o75Owk";
-
 /*
     Constants
 */
