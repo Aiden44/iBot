@@ -19,7 +19,11 @@ module.exports = class Help {
         const numberGenerated = Math.floor(Math.random() * parseInt(num2) + num1);
         if(isNaN(numberGenerated)) return message.reply(" please enter an integer !");
         console.log(numberGenerated);
-        message.reply(" there is your generated number ! **" + numberGenerated  +  "**")
+        const generatedEmbed = new Discord.RichEmbed();
+        generatedEmbed.setTitle("You number has been generated !");
+        generatedEmbed.addField("Generated number", numberGenerated);
+        generatedEmbed.setTimestamp();
+        message.guilds.channel.sendEmbed(generatedEmbed);
     }
 
 }

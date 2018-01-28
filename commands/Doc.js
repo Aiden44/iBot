@@ -24,7 +24,7 @@ module.exports = class Doc {
         docInfoEmbed.addField("Swift", "Send Swift doc");
         docInfoEmbed.addField("Objective-c", "Send Objective-c doc");
         docInfoEmbed.addField("Python", "Send Python doc");
-        docInfoEmbed.setColor("#00D1FD");
+        docInfoEmbed.setColor("#FF5800");
         message.channel.sendEmbed(docInfoEmbed);
     }
 

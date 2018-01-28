@@ -19,7 +19,7 @@ module.exports = class BotInfo {
         docInfoEmbed.addField("Servers", "iBot is currently in **" + bot.guilds.size + "** servers and **" + bot.users.size + "** users!");
         docInfoEmbed.setThumbnail("https://3.bp.blogspot.com/-3g1VKe8UW2Q/WMa_tYDquKI/AAAAAAAAZQo/3spVwUE4qyUJNeoIBMh8BwkoWpqfx6EbQCLcB/s1600/Gifs%2Banimados%2BMonstro%2B3.gif");
         docInfoEmbed.setTimestamp();
-        docInfoEmbed.setColor("#00D1FD");
+        docInfoEmbed.setColor("#FF5800");
         message.react('✅');
         message.channel.sendEmbed(docInfoEmbed);
     }
@@ -31,7 +31,7 @@ module.exports = class BotInfo {
         githubEmbed.setURL("https://github.com/MobElian/iBot");
         githubEmbed.setTimestamp();
         githubEmbed.setThumbnail("https://3.bp.blogspot.com/-3g1VKe8UW2Q/WMa_tYDquKI/AAAAAAAAZQo/3spVwUE4qyUJNeoIBMh8BwkoWpqfx6EbQCLcB/s1600/Gifs%2Banimados%2BMonstro%2B3.gif");
-        githubEmbed.setColor("#00D1FD");
+        githubEmbed.setColor("#FF5800");
         message.react('✅');
         message.channel.sendEmbed(githubEmbed);
     }
