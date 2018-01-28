@@ -12,7 +12,7 @@ module.exports = class Help {
         const docInfoEmbed = new Discord.RichEmbed();
         docInfoEmbed.setAuthor(message.member.displayName, message.member.user.avatarURL);
         docInfoEmbed.setDescription("There principal commands that you can use with the bot!\nNote: **the bot is currently under develpment !**");
-        docInfoEmbed.addField("iInfos", "See the informations of the server (number of users, number of channels, ect.)");
+        docInfoEmbed.addField("iStats", "See the informations of the server (number of users, number of channels, ect.)");
         docInfoEmbed.addField("iBotInfo", "See bot info");
         docInfoEmbed.addField("iGithub", "Send the github code of the bot");
         docInfoEmbed.addField("iAvatar", "Send your display avatar in **HD**");
