@@ -36,4 +36,4 @@ client.on("message", (message) => {
     Warn.execute(message, client);
 })
 
-client.login(process.ENV.TOKEN);
+client.login(process.env.TOKEN);
