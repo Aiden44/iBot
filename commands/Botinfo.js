@@ -5,6 +5,8 @@ module.exports = class BotInfo {
     static execute(message, bot) {
         if(Match.match(message, "iBotInfo", true)) {
             this.sendInfo(message, bot)
+        } else if(Match.match(message, "iGithub", true)) {
+            this.sendGithub(message);
         }
     }
 
@@ -21,5 +23,19 @@ module.exports = class BotInfo {
         message.react('✅');
         message.channel.sendEmbed(docInfoEmbed);
     }
+
+    static sendGithub(message, bot) {
+        const githubEmbed = new Discord.RichEmbed();
+        githubEmbed.setAuthor(message.member.displayName, message.member.user.avatarURL);
+        githubEmbed.setTitle("There is the code of the bot !");
+        githubEmbed.setURL("https://github.com/MobElian/iBot");
+        githubEmbed.setTimestamp();
+        githubEmbed.setThumbnail("https://3.bp.blogspot.com/-3g1VKe8UW2Q/WMa_tYDquKI/AAAAAAAAZQo/3spVwUE4qyUJNeoIBMh8BwkoWpqfx6EbQCLcB/s1600/Gifs%2Banimados%2BMonstro%2B3.gif");
+        githubEmbed.setColor("#00D1FD");
+        message.react('✅');
+        message.channel.sendEmbed(githubEmbed);
+    }
+
+
 
 }
