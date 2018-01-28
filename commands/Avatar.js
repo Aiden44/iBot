@@ -7,8 +7,14 @@ module.exports = class Fun {
     }
 
     static reply(message) {
-        message.channel.send("Hey ! There is your avatar");
-        message.delete();
+        const user = message.mentions.users.first()
+        if(user.size < 1) {
+            message.reply(" there is your avatar !: " + message.author.displayAvatarURL);
+            message.react("✅");
+        } else {
+            message.reply(" there the avatar of " + user.toString()  +  ": " + message.mentions.users.first().displayAvatarURL;
+            message.react("✅");
+        }
     }
 
 }
