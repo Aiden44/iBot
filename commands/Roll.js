@@ -24,6 +24,7 @@ module.exports = class Help {
         generatedEmbed.addField("Generated number", numberGenerated);
         generatedEmbed.setTimestamp();
         generatedEmbed.setColor("#FF5800");
+        message.react('✅');
         message.channel.sendEmbed(generatedEmbed);
     }
 
