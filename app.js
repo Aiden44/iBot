@@ -41,11 +41,6 @@ client.on("message", (message) => {
         message.reply(" you can simply add your bot on a server by following this URL: https://discordapp.com/oauth2/authorize?client_id=406229725346791446&scope=bot&permissions=2146958591");
     }
 
-    if(message.content.startsWith("iAvatar")) {
-        message.reply(" there is your avatar !: " + message.author.displayAvatarURL);
-        message.react("✅");
-    }
-
 })
 
 client.login(process.env.TOKEN);
