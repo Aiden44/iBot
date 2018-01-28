@@ -34,6 +34,12 @@ client.on("message", (message) => {
     BotInfo.execute(message, client);
     Roll.execute(message);
     Warn.execute(message, client);
+
+    if(message.content.startsWith("iInviteBot")) {
+        message.reply(" you can simply add your bot on a server by following this URL: https://discordapp.com/oauth2/authorize?client_id=406229725346791446&scope=bot&permissions=2146958591");
+        message.react("✅");
+    }
+
 })
 
 client.login(process.env.TOKEN);
