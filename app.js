@@ -11,6 +11,7 @@ const BotInfo = require("./commands/Botinfo");
 const Roll = require("./commands/Roll");
 const Music = require("./commands/Music");
 const Warn = require("./commands/Warn");
+const Stats = require("./commands/Stats");
 
 let servers = {};
 
@@ -34,6 +35,7 @@ client.on("message", (message) => {
     BotInfo.execute(message, client);
     Roll.execute(message);
     Warn.execute(message, client);
+    Stats.execute(message);
 
     if (message.author.equals(client.user)) return;
 
