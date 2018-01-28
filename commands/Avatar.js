@@ -7,8 +7,8 @@ module.exports = class Fun {
     }
 
     static reply(message) {
-        message.channel.send("Hey ! There is your avatar");
-        message.delete();
+        message.reply(" there is your avatar !: " + message.author.displayAvatarURL);
+        message.react("✅");
     }
 
 }
