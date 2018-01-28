@@ -23,7 +23,7 @@ module.exports = class Help {
         generatedEmbed.setTitle("You number has been generated !");
         generatedEmbed.addField("Generated number", numberGenerated);
         generatedEmbed.setTimestamp();
-        message.guilds.channel.sendEmbed(generatedEmbed);
+        message.channel.sendEmbed(generatedEmbed);
     }
 
 }
