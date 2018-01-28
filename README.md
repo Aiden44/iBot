@@ -17,7 +17,7 @@ Here is a few of them:
 | iDocInfo | Send an embed that lists all the language that you can use |
 | iBan @member | Ban the users that you have mention. Note - **You have to have the role: iAdmin to use this command** |
 | iWarn @member | Wan a the users that you have mentioned. Note - **You have to have the role: iAdmin to use this command** |
-| iRoll <num1> <num2> | Generate randow number beetween **num1** and **num2** |
+| iRoll <num1> <num2> | Generate random number beetween **num1** and **num2** |
 
 ### iBot all include features like:
 
